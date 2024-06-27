@@ -1,1 +1,0 @@
-docker run -p 3001:3000 --name hexlet-exam-docker exam-docker-app

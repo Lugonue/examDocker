@@ -1,0 +1,9 @@
+services:  
+  exoress-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3000
+    restart: always
+    command: npm start
